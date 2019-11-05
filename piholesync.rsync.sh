@@ -1,6 +1,6 @@
 #!/bin/bash -x
 
-# Version 2.2
+# Version 2.2b
 # -----------------------------
 # Script by Zach Burkhardt. Majorly changed from original piholesync script by /u/LandlordTiberius
 # See Github repository for more information
@@ -14,7 +14,7 @@
 #VARS
 FILES=(blacklist.txt regex.list whitelist.txt adlists.list lan.list) #list of files you want to sync
 PIHOLEDIR=/etc/pihole #working dir of pihole
-PIHOLE1IP=192.168.10.2 #IP of 1st PiHole
+PIHOLE1IP=192.168.1.69 #IP of 1st PiHole
 PIHOLE1USER=pi #user of 1st pihole
 
 #LOOP FOR FILE TRANSFER
